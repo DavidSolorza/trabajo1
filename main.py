@@ -35,6 +35,7 @@ def calculadora_completa():
             print("Opción no válida")
 
 calculadora_completa()
+print ("gracias por usar la calculadora mini")
 
 
 print ("Cuadrado")
