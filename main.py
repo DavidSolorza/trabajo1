@@ -52,3 +52,7 @@ print("Rectangulo")
 lado2 = 10
 for _ in range(lado):
     print("* " * lado2)
+
+print("Triangulo rectangulo")
+for i in range(1, lado + 1):
+    print("* " * i)
