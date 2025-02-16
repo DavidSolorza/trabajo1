@@ -1,5 +1,6 @@
 def calculadora_completa():
     while True:
+        print("Bienvenido a la calculadora mini")
         print("\nCalculadora 100% funcional")
         print("1. Sumar")
         print("2. Restar")
