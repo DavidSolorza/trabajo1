@@ -1,12 +1,25 @@
-# Solicitar dos números al usuario
-num1 = float(input("Ingresa el primer número: "))
-num2 = float(input("Ingresa el segundo número: "))
+def calculadora():
+    print("Calculadora 50% funcional")
+    print("1. Sumar")
+    print("2. Restar")
 
-# Multiplicación
-resultado = num1 * num2
+    opcion = input("Elige una opción (1/2): ")
 
-# Mostrar el resultado
-print(f"El resultado de la multiplicación es: {resultado}")
+    if opcion in ("1", "2"):
+        num1 = float(input("Ingresa el primer número: "))
+        num2 = float(input("Ingresa el segundo número: "))
+
+        if opcion == "1":
+            resultado = num1 + num2
+        else:
+            resultado = num1 - num2
+
+        print(f"El resultado es: {resultado}")
+    else:
+        print("Opción no válida")
+
+calculadora()
+
 print ("Cuadrado")
 
 lado = 5
