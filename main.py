@@ -12,3 +12,7 @@ print ("Cuadrado")
 lado = 5
 for _ in range(lado):
     print("* " * lado)
+
+print("Triangulo")
+for i in range(1, lado + 1):
+    print(" " * (lado - i) + "*" * (2 * i - 1))
